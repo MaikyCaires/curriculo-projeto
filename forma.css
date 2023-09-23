@@ -1,0 +1,95 @@
+.formacao{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
+    align-items: start;
+    
+}
+.forma-intro{
+    margin-bottom: 50px;
+}
+.back{
+    background-color: #1E1E1E;
+}
+.conteudo-content p{
+    color: #858585;
+    font-size: 1.4rem;
+    line-height: 1.3;
+}
+.conteudo-content h3{
+    color: #9c9c9c;
+}
+.formacao .titulo{
+   color: #6a6a6a; 
+}
+.conteudo-content p span{
+    color: white;
+}
+.flex-conteudo{
+    display: flex;
+    max-width: 200px;
+    background-color: black;
+    margin: 20px;
+    display: block;
+    padding: 20px 23px;
+    border-radius: 20px;
+}
+.titulo-mobile-footer{
+    display: none;
+}
+/*footer*/
+.main-footer{
+    background-color: black;
+    color: white;
+    padding-bottom: 0px;
+}
+.titulo-footer{
+    font-size: 5rem;
+    color: #6a6a6a;
+}
+.flex-footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    
+}
+
+.flex-footer p{
+    font-size: 1.3rem;
+}
+.contato p{
+    font-size: 1.5rem;
+    margin-top: 2px;
+}
+.caires{
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+
+@media(max-width: 900px){
+    .titulo-mobile-footer{
+        display: block;
+        font-size: 3.5rem;
+        font-weight: bold;
+        color: #6a6a6a;
+    }
+    .formacao{
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .flex-conteudo{
+        max-width: 400px;
+    }
+    .contato{
+        margin-top: 15px;
+    }
+    .contato p{
+        font-size: 1rem;
+    }
+    .titulo-footer{
+        font-size: 3.5rem;
+    }
+}
